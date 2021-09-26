@@ -1,0 +1,247 @@
+.answers {
+    margin-top: -108px;
+}
+
+#game-content-div {
+    width: 100%;
+    height: 100%;
+    background: url(images/tbl.png) no-repeat right bottom;
+}
+.opt {
+    display:block;
+    margin-top: 50px;
+    height:200px;
+}
+.point {
+    padding-left: 0px !important;
+    margin-left: -4px !important;
+    min-width: 2px !important;
+}
+label {
+    font-size: 30px;
+    font-weight: normal;
+    margin-right:12px;
+}
+.correct {
+    width: 300px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    font-size: 30px;
+}
+.avatar_anim {
+    z-index:9999 !important;
+}
+.answer:hover, .answer-clicked {
+    border:none;
+    /*text-decoration: line-through;
+    text-decoration-color:#ff0000;*/
+    box-shadow: none;
+    background-color: #ffffcc;
+}
+.answer {
+    background:none;
+    border: none;
+    margin: 2px;
+    padding: 2px;
+    min-width: 18px;
+    font-size: 22px;
+    cursor: pointer;
+    display: inline-block;
+    font-style:italic;
+    z-index:9990;
+}
+.incorrect{
+   background-color: rgba(243, 16, 16, 0.48);
+}
+#mobilier {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 224px;
+    left: 195px;
+    border: 4px solid #1badfd;
+    font-size: 22px;
+    color:;
+}
+#relief {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 224px;
+    right: 195px;
+    border: 4px solid #17a95f;
+    font-size: 22px;
+}
+#arte {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 224px;
+    right: 0px;
+    border: 4px solid #fd981b;
+    font-size: 22px;
+}
+#meserii {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 224px;
+    left: 390px;
+    border: 4px solid #a917a3;
+    font-size: 22px;
+}
+#stari_sufletesti {
+    width: 150px;
+    height: 270px;
+    position: absolute;
+    top: 224px;
+    left: 0px;
+    border: 4px solid #fd1bf6;
+    font-size: 22px;
+
+}
+#header_mobilier {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 158px;
+    left: 195px;
+    border: 4px solid #1badfd;
+    font-size: 22px;
+    background-color: #1badfd; color:#ffffff;
+	padding-top: 14px;
+
+}
+#header_relief {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 158px;
+    right: 195px;
+    border: 4px solid #17a95f;
+    font-size: 22px;
+    background-color: #17a95f; color:#ffffff;
+	padding-top: 14px;
+}
+#header_arte {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 158px;
+    right: 0px;
+    border: 4px solid #fd981b;
+    font-size: 22px;
+    padding-top: 0px;
+    background-color: #fd981b; color:#ffffff;
+
+}
+#header_meserii {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 158px;
+    left: 390px;
+    border: 4px solid #a917a3;
+    font-size: 22px;
+    padding-top: 15px;
+    background-color: #a917a3; color:#ffffff;
+
+}
+
+#header_stari_sufletesti {
+    width: 150px;
+    height: 70px;
+    position: absolute;
+    top: 158px;
+    left: 0px;
+    border: 4px solid #fd1bf6;
+    font-size: 22px;
+    background-color: #fd1bf6; color:#ffffff;
+	padding-top: 14px;
+}
+.dragged{
+   float:left;
+   padding:2px 6px;
+}
+.checked_stari_sufletesti {
+    color:#fd1bf6;
+}
+.checked_mobilier {
+    color:#1badfd;
+}
+.checked_meserii {
+    color:#a917a3;
+}
+.checked_arte {
+    color:#fd981b;
+}
+.checked_relief {
+    color:#17a95f;
+}
+
+
+#game-content-div {
+    text-align: center;
+
+}
+
+#verifica {
+    position: absolute;
+    bottom: -5px;
+    left: 450px; 
+}
+.question {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.image {
+    width: 250px;
+    height: 300px !important;
+    margin: 20px auto;
+}
+
+
+.fa {
+  padding-top:4px;
+}
+
+#stars{
+	display:table;
+	position:absolute;
+	right:30px;
+	top:10%;
+	height:80%;
+	width:50px;
+}
+
+#stars-inner {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.fa.fa-star {
+	font-size:40px;
+	color:#fff !important;
+	margin-top:5px;
+}
+.fa.fa-star.yellow-star {
+	color: #FF3 !important;
+}
+.carousel-inner .item {
+	text-align:Center;
+
+}
+.exercises {
+	display:table;
+}
+.exercise {
+    display: table-cell;
+    padding: 60px 10px;
+    font-size: 26px;
+    font-weight: bold;
+    height: 80px;
+    text-align: center;
+    vertical-align: middle;
+}

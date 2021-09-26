@@ -1,0 +1,445 @@
+body {
+    background-color: #1d4c6b !important;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img.verifica {
+    width: 140px !important;
+    opacity: 1;
+}
+
+img.inainte {
+    width: 70px !important;
+}
+
+img.verifica:hover {
+    opacity: 0.8;
+}
+
+#wrapper-div,
+#content-div {
+    width: 1000px;
+    height: 700px;
+}
+
+#wrapper-div {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-color: rgb(226, 245, 216);
+}
+
+#start-game-div {
+    width: 100%;
+    height: 100%;
+    background: url(../images/default_bg_intro_amii.jpg) no-repeat right bottom;
+}
+
+.hide_meniu {
+    position: absolute;
+    top: 3px;
+    margin: auto;
+    z-index: 999;
+}
+
+#start-image {
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+#restart {
+    width: 120px;
+    height: 80px;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-size: 25px;
+}
+
+#game-content-div {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: url(../images/default_amii_bg.jpg) no-repeat right top;
+}
+
+#content-div {
+    position: relative;
+    -webkit-transform-origin: top left;
+    -moz-transform-origin: top left;
+    -ms-transform-origin: top left;
+    -o-transform-origin: top left;
+    transform-origin: top left;
+}
+
+
+#bottom-bar-div {
+    width: 34px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+
+.icon-border {
+    border-width: 2px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border-width: 2px;
+    border: 2px solid #23517b;
+    background-color: rgba(29, 49, 66, 0.77);
+    color: #fff;
+    padding: 4px;
+}
+
+#top-bar-div {
+    height: 170px;
+    width: 34px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+    padding: 2px;
+}
+
+.top-bar-element {
+    width: 33px;
+    height: 56px;
+    cursor: pointer;
+    background: url(../images/butoane_app_shadow.png);
+    margin-bottom: 1px;
+}
+
+.bottom {
+    bottom: 6px;
+}
+
+#unmute-img {
+    background-position: 0px 1px;
+}
+
+#unmute-img:hover {
+    background-position: 0px 56px;
+}
+
+#muted-img {
+    background-position: 103px 1px;
+}
+
+#muted-img:hover {
+    background-position: 103px 56px;
+}
+
+#try-again-top-bar-img {
+    background-position: 34px 0px;
+}
+
+#try-again-top-bar-img:hover {
+    background-position: 34px 56px;
+}
+
+#help-img {
+    background-position: 68px 0px;
+}
+
+#help-img:hover {
+    background-position: 68px 56px;
+}
+
+#avatar-player-controls-div {
+    position: absolute;
+    bottom: -35px;
+    left: 7px;
+    height: 33px;
+    display: none;
+}
+
+.avatar-player-controls {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+#avatar-div {
+    position: absolute;
+    z-index: 100;
+    width: 68px;
+    height: 100px;
+    margin-left: 60px;
+    margin-top: 2px;
+    background-size: cover;
+}
+
+#avatar-content-div {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+}
+
+#avatar-content-div>.popover {
+    max-width: 620px !important;
+    top: 21px !important;
+    left: 229px !important;
+    min-width: 60%;
+}
+
+#avatar-content-div>.popover>.popover-title {
+    font-size: 20px;
+    text-align: center !important;
+}
+
+#avatar-content-div>.popover>.popover-content {
+    font-size: 24px;
+}
+
+.popover-title-help {
+    background-color: #009CD9 !important;
+    color: #fff;
+}
+
+.popover-title-game-completed {
+    background-color: rgba(211, 188, 232, 1) !important;
+}
+
+.popover-title-game-not-completed {
+    background-color: rgba(247, 3, 31, 0.35) !important;
+}
+
+.popover-content-help {
+    /*background-color: ;*/
+}
+
+.popover-content-game-completed {
+    /*background-color: ;*/
+}
+
+.popover-content-game-not-completed {
+    /*/*background-color: ;*/
+}
+
+#try-again-avatar-btn {
+    position: absolute;
+    width: 22px;
+    height: 37px;
+    left: 1px;
+    top: 2px;
+    cursor: pointer;
+    display: none;
+}
+
+img#about-manual {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#close-btn-popover {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: -14px;
+    right: -14px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.tooltip-inner {
+    font-size: 15px;
+}
+
+#progress-bar-audio-avatar {
+    position: relative;
+    top: 3px;
+    left: -4px;
+    width: 80px;
+}
+
+progress {
+    background-color: white;
+    border: 0;
+    height: 12px;
+    border-radius: 6px;
+    color: #09467B;
+}
+
+progress::-webkit-progress-bar {
+    background-color: white;
+    border: 0;
+    height: 12px;
+    border-radius: 6px;
+}
+
+progress::-webkit-progress-value {
+    background-color: #09467B;
+    border: 0;
+    height: 12px;
+    border-radius: 6px;
+}
+
+progress::-moz-progress-bar {
+    background-color: #09467B;
+    border: 0;
+    height: 12px;
+    border-radius: 6px;
+}
+
+.tooltip>.tooltip-inner,
+.tooltip-inner:before {
+    background-color: #000;
+    opacity: 1;
+}
+
+.tooltip.top>.tooltip-arrow {
+    border-right-color: #000 !important;
+}
+
+.popover>.arrow {
+    display: none !important;
+}
+
+.answer {
+    background: #ffffff;
+    border: 2px solid #cacaca;
+    margin: 5px;
+    padding: 5px;
+    min-width: 180px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.answer:hover,
+.answer-clicked {
+    border: 2px solid #5384a5;
+}
+
+.answer-clicked.incorrect {
+    border: 2px solid red;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+    background: red;
+    float: left;
+}
+
+.checkbox.checked {
+    background: #5384a5;
+}
+
+.fa.fa-check {
+    color: #ddd;
+}
+
+.answer-clicked.incorrect .fa.fa-check,
+.answer-clicked.incorrect .fa.fa-frown-o {
+    color: red;
+}
+
+.answer-clicked .fa.fa-check {
+    color: #5384a5;
+}
+
+.answer-clicked .fa-border {
+    border: solid 0.08em #207B4E !important;
+}
+
+#next-slide-image[data-original-title="Înainte"] {
+    width: 70px !important;
+}
+
+.avatar_anim,
+.avatar_anim_happy,
+.avatar_anim_passive,
+.avatar_anim_sad,
+.avatar_anim_partially_wrong {
+    width: 170px;
+    height: 160px;
+}
+
+.avatar_anim {
+    background-image: url(../images/av/info_av.png);
+}
+
+.avatar_anim_happy {
+    background-image: url(../images/av/info_success_av.png);
+}
+
+.avatar_anim_sad {
+    background-image: url(../images/av/info_gresitl_av.png);
+}
+
+.avatar_anim_passive {
+    background-image: url(../images/av/info_success_av.png);
+}
+
+.avatar_anim_partially_wrong {
+    background-image: url(../images/av/info_succes_partial_av.png);
+}
+
+.next-quest {
+    box-shadow: rgb(84, 163, 247) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(0, 125, 193) 5%, rgb(0, 97, 167) 100%) rgb(0, 125, 193);
+    border-radius: 8px;
+    border: 4px solid rgb(18, 77, 119);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 20px;
+    padding: 14px 12px;
+    text-decoration: none;
+    text-shadow: rgb(21, 70, 130) 0px 1px 0px;
+    cursor: pointer;
+    margin: 20px 0px;
+}
+
+.popover-title {
+    display: none;
+}
+
+.popover.right>.arrow {
+    top: 50%;
+    left: -11px;
+    margin-top: -11px;
+    border-right-color: #316e86;
+    border-right-color: #2b8bb1;
+    border-left-width: 0;
+}
+
+.popover {
+    border: 2px solid #95c5d8;
+}
+
+#game {
+    width: 1000px;
+    height: 700px;
+}

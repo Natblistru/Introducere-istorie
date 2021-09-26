@@ -1,0 +1,70 @@
+#game-content-div {
+	text-align: center;
+  background-image: url('images/bg.jpg') ;
+}
+
+body {
+	
+	text-align: center;
+}
+input {
+	border: 2px solid #999;
+	color: #999;
+}
+
+#draggableBlocks {
+    padding-top:190px;
+    text-align:center;
+    height: 220px;
+}
+
+ .chain {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    cursor: pointer;
+    font-size: 25px;
+    border:2px solid #5aefca;
+    padding-top: 39px;
+    background-color:  rgba(195, 255, 197, 0.67);
+    top: 190px;
+}
+
+#next-image 
+{
+    width: 314px;
+    height: 80px;
+    cursor: pointer;
+    position: absolute;
+    margin: auto;
+    left: 0; bottom: 10px !important; right: 0; 
+    font-size:25px; 
+}
+
+.b1-5 {
+  left:40px;
+}
+.b2-5 {
+  left:230px;
+}
+.b3-5 {
+  left:420px;
+}
+.b4-5 {
+  left:610px;
+}
+.b5-5 {
+  left:800px;
+}
+.b1-4 {
+  left:130px;
+}
+.b2-4 {
+  left:320px;
+}
+.b3-4 {
+  left:510px;
+}
+.b4-4 {
+  left:700px;
+}

@@ -1,0 +1,200 @@
+
+#next-div-content {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#verify {
+    position: absolute;
+    top: 600px;
+    left: 430px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 9px;
+
+}
+
+#next-button, #finish-button {
+    position: absolute;
+    top: 600px;
+    left: 560px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgb(84, 163, 247) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(0, 125, 193) 5%, rgb(0, 97, 167) 100%) rgb(0, 125, 193);
+    text-decoration: none;
+    text-shadow: rgb(21, 70, 130) 0px 1px 0px;
+    border: 4px solid rgb(18, 77, 119);
+
+}
+
+#before-button {
+    position: absolute;
+    top: 600px;
+    left: 300px;
+    width: 120px;
+    cursor: pointer;
+    font-size: 25px;
+    box-shadow: rgb(84, 163, 247) 0px 1px 0px 0px inset;
+    background: linear-gradient(rgb(0, 125, 193) 5%, rgb(0, 97, 167) 100%) rgb(0, 125, 193);
+    border-radius: 8px;
+    border: 4px solid rgb(18, 77, 119);
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: rgb(21, 70, 130) 0px 1px 0px;
+}
+
+.dragged {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 5px;
+    height: 57px;
+    text-align: center;
+    padding-top: 2px;
+    width: 104px;
+}
+
+.ui-draggable-disabled {
+    cursor: default;
+}
+
+#text-div0 {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    height: 140px;
+    padding-top: 160px;
+    padding-left: 15px;
+}
+
+#text-div1 {
+    padding-left: 24px;
+    margin-top: 100px;
+    padding-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 370px;
+    font-size: 22px;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+#text-div2 {
+    padding: 8px 24px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 410px;
+    font-size: 25px;
+    width: 100%;
+    text-align: justify;
+}
+
+.draggable-sentence {
+    margin: 5px 15px 5px 5px;
+    font-size: 26px;
+    display: inline-block;
+    vertical-align: -webkit-baseline-middle;
+    min-width: 30px;
+    width: unset !important;
+    height: 40px;
+    cursor: move;
+    color: black;
+    z-index: 10;
+    border: 1px solid #d64d0c;
+    background-color: #faebd4;
+    border-radius: 5px;
+    padding: 0 4px;
+    text-align: center;
+}
+
+.dragged-word {
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+    cursor: default;
+    font-weight: bold;
+    position: relative;
+    min-width: 25px;
+    padding: 6px;
+}
+
+.close:before {
+    content: '✕';
+}
+
+.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    color: red !important;
+    opacity: 0.6 !important;
+}
+
+.droppable-sentence {
+    padding-top: 8px;
+    font-size: 22px;
+    display: block;
+    border-radius: 5px;
+    text-align: left;
+    vertical-align: middle;
+    line-height: 2.2;
+    cursor: default;
+    color: black;
+    margin: 0 4px !important;
+    /*border: 1px solid #27a2bb;*/
+}
+
+.draggable-sentence:hover {
+    border: 1px solid #ebff2c;
+    background-color: #ffe795;
+    color: black;
+}
+
+.ui-draggable-dragging {
+    opacity: 0.7;
+    text-overflow:ellipsis;
+    overflow: hidden;
+    width: 140px !important;
+    height: 40px !important;
+    white-space: nowrap;
+}
+
+.wrong-answer {
+    color: red !important;
+    background-image: none;
+}
+
+.correct-answer {
+    color: green !important;
+    background-image: none;
+}
+
+.hovered {
+    background-color: lightblue;
+}
+
+
+.droppable-cell {
+    border: 2px dotted #758c85;
+    min-width: 180px;
+    height: 60px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    margin-top: 5px;
+    margin-left: 2px;
+    border-radius: 10px;
+}
+
+.sentence {
+    min-width: 25px;
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}

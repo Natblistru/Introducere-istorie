@@ -1,0 +1,78 @@
+#game-request {
+	width: 80%;
+	margin: 0% 10% 1% 10%;
+	text-align: center;	
+	font-weight: bold;
+	font-size: 33px;
+	color: black;
+	display: block;
+	padding-top: 5%;
+}
+
+#full-text{
+	margin: 5% 6% 2% 6%;
+	resize: none;
+	width: 90%;
+	height: 55%;
+	padding: 30px 20px 20px 20px;
+	font-size: 23px;
+	line-height: 2;
+	box-shadow: 10px 10px 5px #99bbff;
+	border: 1px solid #74a4ce;
+}
+
+#game > button {
+	float:right;
+	margin-right: 4%;	
+	font-size: 18px;	
+	width: 190px;	
+}
+
+.signs{	
+	margin: 0px 5px 0px 5px;         
+    box-shadow: 7px 7px 7px #2679da;
+    border: 3px solid #1162c1;   
+    border-style: outset;
+    border-radius: 20px 20px;
+    background-color: #b1e7ef; 
+    width:152px;
+    min-height: 40px;
+    display: inline-block;
+    font-size: 27px;
+    color:black;
+    font-weight: bold;
+    cursor: move;
+}
+
+.exercice{
+	font-size: 27px;
+	color: black;
+}
+
+.wrong-answer {
+    color: #ff3232;
+}
+
+.correct-answer {
+    color: #097509;
+}
+
+.answer-input{
+    display:inline;
+    border: none;
+    background:none;
+}
+
+.gap {
+    width:135px;
+    height: 40px;
+    text-align:center;
+    font-size: 27px;
+    font-weight: bold;
+}
+.ui-droppable-disabled {
+    border: none;
+    width:147px;
+    background: none;
+    text-align: left;
+}

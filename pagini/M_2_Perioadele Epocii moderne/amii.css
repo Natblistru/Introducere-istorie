@@ -1,0 +1,72 @@
+#game-content-div {
+    text-align: center;
+    background: url('../common-resources/images/pairus.jpg') no-repeat right top;  
+}
+
+.question {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.image {
+    width: 250px;
+    height: 300px !important;
+    margin: 20px auto;
+}
+
+
+.fa {
+  padding-top:4px;
+}
+
+#stars{
+	display:table;
+	position:absolute;
+	right:30px;
+	top:10%;
+	height:80%;
+	width:50px;
+}
+
+#stars-inner {
+	display:table-cell;
+	vertical-align:middle;
+}
+
+.fa.fa-star {
+	font-size:40px;
+	color:#fff !important;
+	margin-top:5px;
+}
+.fa.fa-star.yellow-star {
+	color: #FF3 !important;
+}
+.carousel-inner .item {
+	text-align:Center;
+
+}
+.exercises {
+	display:table;
+}
+.exercise {
+    display: table-cell;
+    padding: 180px 10px;
+    font-size: 40px;
+    font-weight: normal;
+    height: 390px;
+    text-align: center;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.answer {
+    background: #ffffff !important;
+    border: 2px solid #cacaca;
+    margin: 5px;
+    padding: 5px;
+    min-width: 180px;
+    font-size: 40px !important; 
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+}

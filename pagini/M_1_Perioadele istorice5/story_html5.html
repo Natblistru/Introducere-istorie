@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../common-resources/css/external/hover.css">
+	<link type="text/css" rel="stylesheet" href="../common-resources/css/external/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../common-resources/css/main.css">
+	<link rel="stylesheet" type="text/css" href="amii.css">
+	<link rel="stylesheet" href="../common-resources/css/external/font-awesome.css" type="text/css" />	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<div id="wrapper-div">
+		<div id="content-div">
+			<div id="avatar-content-div"></div>
+			<div id="start-game-div">
+				<!-- <img id="start-image" src="../common-resources/images/start.png"> -->
+				<button type="button" id="start-image" class="btn btn-primary" >START</button>
+				
+			</div>
+			
+			<div id ="game-content-div">
+				<div id="btns"></div>
+				<div id="game">
+					<div id="draggableBlocks">
+						<div id="chain-0" >
+							<div id="elem-1" class=" b1-4 chain" onclick="chooseElement(this)">Reforma protestantă</div>
+							<div id="elem-2" class=" b2-4 chain" onclick="chooseElement(this)">Revoluția democratică</div>
+							<div id="elem-3" class=" b3-4 chain" onclick="chooseElement(this)">Capitalism dezvoltat</div>
+							<div id="elem-4" class=" b4-4 chain" onclick="chooseElement(this)">Revoluția industrială</div>
+						</div>
+						<div id="chain-1" style="display: none;" >
+							<div id="elem-1" class=" b1-5 chain" onclick="chooseElement(this)">Marile descoperiri geografice</div>
+							<div id="elem-2" class=" b2-5 chain" onclick="chooseElement(this)">Renașterea</div>
+							<div id="elem-3" class=" b3-5 chain" onclick="chooseElement(this)">Invenția tiparului</div>
+							<div id="elem-4" class=" b4-5 chain" onclick="chooseElement(this)">Umanismul</div>
+							<div id="elem-5" class=" b5-5 chain" onclick="chooseElement(this)">Apariția burgheziei</div>
+						</div>
+						<div id="chain-2" style="display: none">
+							<div id="elem-1" class=" b1-4 chain" onclick="chooseElement(this)">Invaziile barbare</div>
+							<div id="elem-2" class=" b2-4 chain" onclick="chooseElement(this)">Invenția tiparului</div>
+							<div id="elem-3" class=" b3-4 chain" onclick="chooseElement(this)">Cruciadele</div>
+							<div id="elem-4" class=" b4-4 chain" onclick="chooseElement(this)">Invenția scrisului</div>
+						</div>
+					</div>
+					<div id="next-chain">
+						<button type="button" id="next-image" class="btn btn-primary" onclick="getNextChain()" >Următoarea etapă istorică</button>
+					</div>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="../common-resources/js/external/jquery.min.js"></script>
+	<script type="text/javascript" src="../common-resources/js/external/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../common-resources/js/external/bootstrap.min.js"></script>
+
+	<script type="text/javascript" src="../common-resources/js/trompi.js"></script>
+	<script src="../common-resources/js/main.js"></script>
+	<script src="amii.js"></script>
+	<!-- End Scripts -->
+
+</body>
+</html>

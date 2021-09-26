@@ -1,0 +1,202 @@
+body {
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2f5f6+0,e3eaed+37,c8d7dc+100;Grey+3D+%234 */
+    background-color: #f2f5f6; /* Old browsers */
+}
+.boys .pane-menu {
+    background-color: #f2f5f6; /* Old browsers */
+}
+
+.girls .pane-menu {
+    background-color: #f2f5f6; /* Old browsers */
+}
+.postitContainer .head {
+    background-color: #f68a1e ;
+}
+
+.sidebar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2c539e+0,2c539e+100;Blue+3D+%232 */
+    background: #fff; /* Old browsers */
+
+}
+
+.sidebar ul.subsection {
+    border-bottom: 2px solid #cccccc;
+    color: #7f2687;
+}
+
+.sidebar ul.subsection li a {
+    color: #7f2687;
+}
+
+.sidebar .my-pagination li .my-label {
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.mobile-menu-navigatio-toggle, .menu-section-list a {
+    color:rgba(0, 0, 0, 0.87);
+}
+
+.animatedModal {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c3d9ff+0,b1c8ef+41,98b0d9+100;Lavender+3D */
+    background: #f2f5f6;
+}
+
+.game_frame .gameWrapper .game-checkbox-wrapper .game-checkbox.checked {
+    border-color: #353535;
+}
+
+.game_frame .gameWrapper .task {
+    color: #353535;
+}
+
+.placeholder {
+    border-width: 0px;
+}
+
+.girls .placeholder,
+.boy .placeholder {
+    border-color: #fff;
+}
+
+.game_frame .placeholder {
+    background-color: #fff;
+    /*padding: 0 0 60px 0px;*/
+    padding: 20px 20px 20px 20px;
+    /*overflow: hidden;*/
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+    .game_frame .placeholder {
+        padding: 20px 5px 20px 5px;
+    }
+}
+
+.game-options {
+    text-align: right;
+    padding-top:20px;
+}
+
+.game_frame .gameWrapper input.blue {
+    color: #353d91;
+}
+.game_frame .gameWrapper .game-checkbox-wrapper.error-left-top.c_true .valid-state, .game_frame .gameWrapper .game-checkbox-wrapper.error-left-top.c_false .valid-state{
+    right: -26px;
+    left: auto;
+    top:0px;
+    margin-top:0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .placeholder {
+        background: #fff;
+        border-width: 4px;
+    }
+    .game_frame .gameWrapper .game-checkbox-wrapper.error-left-top.c_true .valid-state, .game_frame .gameWrapper .game-checkbox-wrapper.error-left-top.c_false .valid-state{
+        right:-10px;
+        top:-15px;
+        left:auto;
+    }
+}
+/*rebus pg32*/
+.game_frame .gameWrapper .rebus-text{
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+/*ex pg17_2*/
+.game_frame .gameWrapper .game-work-box .game-row {
+    width: 100%;
+}
+.page-html-version{
+    padding: 30px 30px 30px;
+}
+
+
+.game-work-box .game-row:only-child .ex-nr-hook{
+    display:none;
+}
+.htmlPageViewMode #inject_page .page {
+    padding: 0px;
+}
+.page-html-version p:first-of-type{
+    margin-top:0px;
+    margin-right:0px;
+    margin-left:0px;
+}
+.page-html-version ul{
+    padding-left:45px;
+}
+.page-html-version ul li{
+    /*margin: 0 31pt 0 22pt;*/
+    line-height:1.2;
+}
+.table-bordered {
+    border: 1px solid #000;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td{
+    border: 1px solid #000;
+
+}
+.interactiveContainer .table--border-transparent.table-bordered {
+    border: 1px solid transparent;
+}
+.interactiveContainer .table--border-transparent.table-bordered > thead > tr > th,
+.interactiveContainer .table--border-transparent.table-bordered > tbody > tr > th,
+.interactiveContainer .table--border-transparent.table-bordered > tfoot > tr > th,
+.interactiveContainer .table--border-transparent.table-bordered > thead > tr > td,
+.interactiveContainer .table--border-transparent.table-bordered > tbody > tr > td,
+.interactiveContainer .table--border-transparent.table-bordered > tfoot > tr > td{
+    border: 1px solid #000;
+    border: 1px solid transparent;
+}
+
+div.Basic-Text-Frame{
+    border:none!important
+}
+.helper-container{
+    max-width: 960px;
+    font-size:14pt;
+}
+.results{
+    padding:20px !important;
+}
+.helper-container{
+width:100%;
+}
+.helper-container img{
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    -webkit-filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+}
+
+.scroll-table{
+    max-width:100%;
+    overflow-x: auto;
+    padding-bottom:5px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .page-html-version {
+        padding: 30px 8px 30px;
+    }
+
+
+}
+
+.fancybox-inner .helper-container .list-inline li .img-responsive{
+    width:100%;
+}
+
+.fancybox-inner .helper-container{
+    height: 90vh;
+}
+
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
+   /* IE10+ specific styles go here */  
+   
+   .helper-container.fancybox-content{
+   background:#bbdefb !important;
+   }
+}
+

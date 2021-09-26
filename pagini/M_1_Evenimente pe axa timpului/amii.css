@@ -1,0 +1,233 @@
+
+
+#game-content-div {
+    background: url("images/bg.png") no-repeat right bottom;
+}
+
+#words-div 
+{
+   margin-top: 28px;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+#draggable-words-div 
+{
+    cursor: pointer;
+    margin-bottom: 50px;
+    height: 297px;
+}
+
+#droppable-words-div 
+{
+    height: 240px;
+	font-size: 14px; 
+    font-weight: bold; 
+}
+
+.cell 
+{
+    display: inline-block;
+    /* padding: 6px 10px 6px 32px; */
+    font-size: 25px !important;
+    text-align: center;
+    /* background: #FAFF43 url(images/star.png) no-repeat left center; */
+    width: 176px;
+    height: -2px;
+    text-align: center;
+}
+
+.draggable-cell 
+{
+    vertical-align: middle;
+    border: 1px solid #BF8572;
+    background-color: rgba(235, 175, 155, 0.69);
+    border-radius: 3px;
+    margin: 23px 3px;
+    /* color: blue; */
+    /* font-weight: bold; */
+    /* background-image: url(images/emptystar.png); 
+    background-repeat: no-repeat;
+    background-position-y: 10px;*/
+    width: 185px;
+    margin-bottom: 112px;
+	font-weight::bold;
+}
+
+.droppable-cell 
+{
+    vertical-align: top;
+    margin: 17px 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    /* background-image: url(images/emptystar.png); */
+    /* background-repeat: no-repeat; */
+    /* background-position-y: 10px; */
+    /* width: 156px; */
+    min-height: 83px;
+    /* margin-left: 20px; */
+    margin-bottom: 0px;
+    /* background: #da4141; */
+    display: inline;
+    width: 178px;
+    height: 40px;
+    background-color: rgba(245, 234, 220, 0.59);
+    z-index: 9999;
+    display: block;
+    float: left;
+    position: relative;
+
+}
+.droppable-cell.animated {
+    /*background-image: url(images/star.png);*/
+}
+
+.droppable-cell span 
+{
+    color: #333333;
+}
+
+
+.dragged-word{
+    width: 162px;
+    font-size: 20px;
+    height: 79px;
+    padding-top: 8px;
+    font-weight: 100;
+    font-size:24px;
+    /*font-stretch: condensed;*/
+}
+
+.draggable-cell{
+	 font-size: 24px !important;
+	 font-weight:600px;
+    /* font-stretch: condensed;*/
+}
+	}
+.hovered, .over 
+{
+    background: #F7F2D3;
+	/*background-image: url(images/star.png);*/
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+
+.draggable-cell:hover 
+{
+    /*border: 3px solid #68D206;*/
+    border: 1px solid #E2CEF2;
+    margin-top:20px;
+	
+}
+
+.draggable-cell.ui-draggable-dragging 
+{
+    border: 3px solid black;
+    opacity: 0.8;
+}
+
+.wrong-choice
+{
+    border: 2px solid red !important;
+	/*background-image: url(images/emptystar.png) !important;*/
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+}
+#draggable-words-div {
+    cursor: pointer;
+    margin-bottom: 50px;
+    height: 187px;
+    padding-top: 100px;
+    }
+.resp {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: rgb(28, 78, 157);
+  /* background-color: #fefefe; */
+  font-weight: bold;
+
+}
+#res {
+    background-image: url(images/res.png);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display:none;
+    height: 308px;
+}
+.ui-droppable-disabled {
+/*  background: #FAFF43 url(images/star.png) no-repeat left center;*/
+}
+.posbottom1 {
+     margin-top: 35px !important;
+}
+.posbottom3 {
+     margin-top: 35px  !important;
+}
+.images{
+
+    width: 150px;
+    height: 100px;
+}
+#draggable-word0{
+    position: relative;
+   /* margin-top: 285px;*/
+   margin-left: 10px;
+    margin-right: 10px;
+	width: 140px;
+}
+#draggable-word1{
+	 position: relative;
+   /*    margin-top: 285px;*/
+   margin-left: 10px;
+    margin-right: 10px;
+    width: 130px;
+    z-index: 9999;
+}
+#draggable-word2{
+     position: relative;
+  /*  margin-top: 285px;*/
+    margin-left: 40px;
+    margin-right: 30px;
+    width: 120px;
+}
+#draggable-word3{
+        position: relative;
+/* margin-top: 285px;*/
+   margin-left: 10px;
+    margin-right: 10px;
+}
+#draggable-word4{
+     position: relative;
+ /*   margin-top: 285px;*/
+   margin-left: 10px;
+    margin-right: 10px;
+}
+/*#droppable-word0{
+    position: relative;
+    top: 64px;
+    left: -74px;
+}
+#droppable-word1{
+    position: relative;
+    top: 64px;
+    left: -103px;
+}
+#droppable-word2{
+    position: relative;
+    top: 64px;
+    left: -131px;
+}
+#droppable-word3{
+    position: relative;
+    top: 64px;
+    left: -160px;
+}
+#droppable-word4{
+    position: relative;
+    top: 64px;
+    left: 309px;
+}*/
